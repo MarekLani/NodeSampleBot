@@ -1,0 +1,26 @@
+{
+  "name": "ECommerceBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "botbuilder": "^3.8.3",
+    "nodemon": "^1.11.0",
+    "request-promise": "^4.2.1",
+    "restify": "^4.3.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.3",
+    "urlencode": "^1.1.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22"
+  },
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec node_modules\\.bin\\ts-node -- index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
